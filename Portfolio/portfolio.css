@@ -1,0 +1,50 @@
+body{
+  background-color:rgb(2, 15, 22);
+}
+.center{
+    text-align: center;
+}
+.social-icons a {
+    font-size: 36px;
+    color: black; /* Set the desired color */
+    margin-right: 30px;
+   
+  }
+  .social-icons{
+    margin-top: 30px;
+    margin-left:1px;
+  }
+  .border{
+    border: 3px solid white; border-radius: 80px;"
+  }
+  header{
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right:0;
+     
+      z-index: 9999;
+     
+      border:2px solid black;
+      min-width:100%;
+    min-height:60px;
+    border-right:2px dashed;
+    
+}
+.mheight{
+    min-height: 500px;
+}
+a{
+  color: black;
+}
+.content {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+  padding: 50px;
+}
+
+.animate.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
